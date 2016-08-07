@@ -66,7 +66,7 @@ plt.scatter(feature_test[0], target_test[0], color=train_color, label="train")
 
 ### draw the regression line, once it's coded
 try:
-    plt.plot( feature_test, reg.predict(feature_test) )
+    plt.plot( feature_test, reg.predict(feature_test))
 except NameError:
     pass
 plt.xlabel(features_list[1])
